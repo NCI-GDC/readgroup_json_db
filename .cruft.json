@@ -1,0 +1,20 @@
+{
+    "template": "git@github.com:NCI-GDC/bio-python-template.git",
+    "commit": "baf2226bed9c364393971df5fb8ed3bdafa1c744",
+    "context": {
+      "cookiecutter": {
+        "full_name": "Linghao Song",
+        "email": "linghao@uchicago.edu",
+        "github_username": "sxwcasd",
+        "project_name": "readgroup_json_db",
+        "package_name": "readgroup_json_db",
+        "project_short_description": "readgroup_json_db",
+        "min_python_version": "3.9",
+        "github_repo": "https://github.com/NCI-GDC/readgroup_json_db",
+        "commit": "baf2226bed9c364393971df5fb8ed3bdafa1c744",
+        "_template": "git@github.com:NCI-GDC/bio-python-template.git"
+      }
+    },
+    "directory": null,
+    "checkout": null
+  }
