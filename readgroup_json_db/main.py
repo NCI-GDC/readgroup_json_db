@@ -59,6 +59,7 @@ def main() -> int:
     json_path = args.json_path
 
     logger = setup_logging(args, job_uuid)
+    print(logger)
 
     sqlite_name = f"{job_uuid}.db"
     engine_path = f"sqlite:///{sqlite_name}"
