@@ -7,9 +7,10 @@ import os
 
 import pandas as pd
 import sqlalchemy
+from sqlalchemy.engine.base import Engine
 
 
-def readgroup_to_db(json_data: dict, job_uuid: str, engine: sqlalchemy.engine) -> None:
+def readgroup_to_db(json_data: dict, job_uuid: str, engine: Engine) -> None:
     table_name = "readgroups"
     for rg_key in sorted(json_data.keys()):
         rg_dict = dict()
