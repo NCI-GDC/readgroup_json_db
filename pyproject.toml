@@ -36,6 +36,7 @@ dev = [
     "mypy",
     "pre-commit>=2.9.0",
     "tox",
+    "types-sqlalchemy"
 ]
 
 test = [
@@ -45,6 +46,7 @@ test = [
 
 type = [
     "types-click",
+    "types-sqlalchemy"
 ]
 
 [project.urls]
