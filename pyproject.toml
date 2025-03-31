@@ -19,7 +19,9 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
-    "click"
+    "click",
+    "pandas",
+    "sqlalchemy" 
 ]
 
 [project.optional-dependencies]
@@ -46,7 +48,8 @@ test = [
 
 type = [
     "types-click",
-    "types-sqlalchemy"
+    "types-sqlalchemy",
+    "pandas-stubs"
 ]
 
 [project.urls]
