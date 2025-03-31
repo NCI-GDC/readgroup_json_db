@@ -38,6 +38,7 @@ dev = [
     "mypy",
     "pre-commit>=2.9.0",
     "tox",
+    "setuptools_scm",
     "types-sqlalchemy"
 ]
 
