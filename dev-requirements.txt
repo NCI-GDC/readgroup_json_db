@@ -65,6 +65,7 @@ packaging==24.2
     #   black
     #   pyproject-api
     #   pytest
+    #   setuptools-scm
     #   tox
 pathspec==0.12.1
     # via black
@@ -99,6 +100,8 @@ pyyaml==6.0.2
     #   pre-commit
 requests==2.32.3
     # via detect-secrets
+setuptools-scm==8.2.0
+    # via -r dev-requirements.in
 snowballstemmer==2.2.0
     # via pydocstyle
 tomli==2.2.1
@@ -108,6 +111,7 @@ tomli==2.2.1
     #   mypy
     #   pyproject-api
     #   pytest
+    #   setuptools-scm
     #   tox
 tox==4.25.0
     # via -r dev-requirements.in
@@ -116,6 +120,7 @@ typing-extensions==4.13.0
     #   -c /mnt/SCRATCH/linghao/git_repos/readgroup_json_db/requirements.txt
     #   black
     #   mypy
+    #   setuptools-scm
     #   tox
 urllib3==2.2.3
     # via requests
@@ -123,3 +128,6 @@ virtualenv==20.30.0
     # via
     #   pre-commit
     #   tox
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools

@@ -10,3 +10,4 @@ pytest
 pytest-cov
 mypy
 black
+setuptools_scm
